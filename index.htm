@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="ArchiWeb">
+    <meta name="description" content="ArchiWeb Restaurant">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchiWeb Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header__h1">
+        <h1>Welcome To Savory Haven</h1>
+
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+            </ul>
+        </nav>
+         </header>
+
+        <section class="hero">
+            <h2 class="hero__h2">Welcome!</h2>
+        <figure>
+            <img src="Restaurant/hero1.jfif"
+                 alt="Delicious meal served at Savory Haven"
+                 width="100%">
+        </figure>
+         </section>
+
+
+    <main>
+
+        <section id="about">
+            <h2>About Savory Haven</h2>
+
+            <p>
+                At Savory Haven, we believe that great food brings people together. <br>
+                Our chefs prepare every meal using fresh, carefully selected ingredients
+                to deliver unforgettable flavors. <br> From family dinners to casual lunches,
+                we create a warm and welcoming experience for every guest.
+            </p>
+        </section> <br>
+         <hr> <br>
+
+        <section id="menu">
+            <img src="Restaurant/hero3.jfif" alt="" width="100%"> <hr>
+             <h2>Our Menu</h2>
+            <ul class="ul">
+           <li><figure>
+                <h3>Burger</h3>
+                <img src="burger1.jfif" alt="Burger" width="500" class="b">
+                <figcaption>$20</figcaption>
+            </figure></li>
+           <li><figure>
+            <h3>Pasta</h3>
+            <img src="Restaurant/pasta1.jpg" alt="Pasta" width="500" class="pa">
+            <figcaption>$30</figcaption>
+            </figure></li>
+               <li><figure>
+                <h3>Pizza</h3>
+                <img src="Restaurant/pizza1.jpg" alt="Pizza" width="500" class="pi">
+                <figcaption>$30</figcaption>
+            </figure></li>
+            </ul>
+                </section><hr> <br>
+
+                <section id="testimonials">
+                    <img src="Restaurant/Hero.jfif" alt="">
+                     <h2>Testimonials</h2>
+                    <ul class="test">
+                        <li><figure>
+                            <h3>Sarah M.</h3>
+            <img src="Restaurant/Interior2.jfif" alt="Interior" width="500">
+            <figcaption><p><q>The food was absolutely delicious, 
+                and the restaurant was spotless. <br> 
+                The atmosphere made the whole experience even better!</q></p></figcaption>
+                        </figure></li>
+                        <li><figure>
+                            <h3>James K.</h3>
+            <img src="Restaurant/Interior1.jfif" alt="Interior" width="500">
+            <figcaption><p><q>I loved how clean and beautiful the interior was. <br>
+                 The meals were fresh, flavorful, and served on time.</q></p></figcaption>
+                        </figure></li>
+                        <li><figure>
+                            <h3>Emily R.</h3>
+            <img src="Restaurant/Interior3.jfif" alt="Interior" width="500">
+            <figcaption><p><q>Great food, friendly service, and a warm, welcoming environment. 
+                I'll definitely be coming back!</q></p></figcaption>
+                        </figure></li>
+                    </ul>
+                </section><hr><br>
+
+
+    <footer class="footer">
+    <section id="contact">
+        <img src="Restaurant/hero2.jfif" alt="" width="100%"><br>
+        
+        <h2>Contact Us</h2>
+    <address>
+
+📍 123 Food Street, Lagos, Nigeria <br>
+
+📞 +234 800 123 4567 <br>
+
+✉️ hello@savoryhaven.com <br>
+    </address>
+    </section>
+
+    <form action="none">
+        <fieldset>
+            <article id="reservation">
+        <h2>Reservation</h2> 
+         <label for="email">Full Name:</label>
+            <input type="fname" id="fname" name="fname"
+            placeholder="Enter your full name" required><br><br>
+        
+             <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+            placeholder="Enter your email" required><br><br>
+
+            <label for="tpn">Telephone:</label>
+                <input type="tel" id="tpn" name="phone_number"
+                placeholder="+234..." required><br><br>
+
+                <label for="guests">Number of Guests?</label>
+            <select id="guests" name="guests" required>
+
+            <option value="one">One</option>
+            <option value="two">Two</option>
+            <option value="three">Three</option>
+            <option value="four">Four</option>
+            <option value="five">Five</option>
+            <option value="six">Six</option>
+            <option value="seven">Seven</option>
+            <option value="eight">Eight</option>
+            <option value="nine">Nine</option>
+            <option value="ten">Ten</option>
+            </select><br><br>
+
+            <label for="reservation">Reservation Date:</label>
+        <input type="date" id="reservation" name="reservation date" required><br><br>
+
+            <label for="time">Reservation Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+
+                <label for="comment">Special Requests:</label><br>
+        <textarea id="comment" name="comment"
+        placeholder="Leave your special request here..."
+        cols="50" rows="8"></textarea> <br><br>
+
+        <button type="submit"><b>Reserve Table</b></button>
+        </fieldset>
+    </form>
+    </footer>
+    <p class="copyright">&copy;2026 Archiweb <br>&copy;Kenny Adeyemo</p>
+ 
+
+</main>
+
+</body>
+</html>
